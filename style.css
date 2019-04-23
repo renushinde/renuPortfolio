@@ -32,7 +32,69 @@ header {
   color: #595959;
   font-size: 1em;
 }
+.info-buttons {
+	border-radius: 50%;
+}
+.resume {
+    display: table;
+    width: 100%;
+    height: 150px;
+    color: #fff;
+    background-image: linear-gradient(120deg, #FFDEE9, #B5FFFC);
+    opacity: .95;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    /*position: absolute;*/
+}
+.resume-text {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
 
+#resume-link {
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	font-weight: 700;
+}
+/*Projects*/
+.demo-code, .demo-code:hover{
+  color: black;
+  margin-top: 1em;
+  cursor: pointer;
+  text-decoration: none;
+  border-color: #00b7c7;
+  border-radius: 50px;
+}
+
+.project-description {
+  margin-top: 1em;
+  color: #a1a1ad;
+
+}
+
+.buttons {
+	margin-top: 2em !important;
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+
+
+}
+
+.submit {
+  background-color: transparent;
+  border-style: solid !important;
+  padding: .5em;
+  margin: 10px;
+  text-align: center;
+}
+.submit:hover {
+  background-color: #00b7c7;
+}
 #email {
   background: -webkit-linear-gradient(left, #f5477f, #7af5f0);
   -webkit-background-clip: text;
@@ -47,7 +109,7 @@ header {
 }
 a {
   text-decoration: none;
-  color: white;
+  color: black;
   }
 
 .bio-image {
